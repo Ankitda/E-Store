@@ -1,0 +1,17 @@
+.about-section {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    .about-section {
+        padding: 30px;
+    }
+}

@@ -1,0 +1,49 @@
+.help {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.help>h2 {
+    margin: 20px 0px;
+    color: #333;
+    font-weight: 700;
+
+}
+
+.help>p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.help-span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.help-ul-list {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.help-li-list {
+    margin-bottom: 10px;
+}
+
+.help-button-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 30px 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .help {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+}
