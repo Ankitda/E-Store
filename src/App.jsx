@@ -21,8 +21,7 @@ function App() {
     }>
       <Header/>
       <Breadcrumbs />
-      {isFilled ? <Hero /> : ""}
-      {isFilled ? "" : <Outlet />}
+      {isFilled ? <Hero /> : <Outlet />}
       <Footer />
     </SetIsFilled.Provider>
 
